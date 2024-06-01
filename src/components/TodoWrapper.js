@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import TodoForm from "./TodoForm";
 
 const TodoWrapper = () => {
   return (
-    <div>
-      
+    <div className="TodoWrapper">
+      <TodoForm />
     </div>
-  )
-}
+  );
+};
 
-export default TodoWrapper
+export default TodoWrapper;
